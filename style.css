@@ -72,6 +72,53 @@ section {
     margin: 0 auto;
 }
 
+/* Experience Section */
+#experience h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.experience-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-card h3 {
+    color: #222;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.experience-card h4 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.experience-card .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.experience-card ul {
+    list-style-position: inside;
+    color: #555;
+}
+
+.experience-card li {
+    margin-bottom: 0.8rem;
+}
+
+.experience-card li strong {
+    color: #333;
+}
+
 /* Projects Grid */
 #projects h2 {
     text-align: center;
@@ -83,6 +130,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .project-card {
