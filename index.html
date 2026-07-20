@@ -11,8 +11,8 @@
         <div class="logo">My Portfolio</div>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -20,31 +20,82 @@
     <section id="about" class="hero">
         <h1>Hello, I'm Dorothy Nicole M. Cabuten</h1>
         <p>I'm a student focusing on computer vision and deep learning. I build models to solve real-world problems.</p>
-    </section>
-
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <div class="experience-card">
-            <h3>Data & Design Intern</h3>
-            <h4>Organic Agriculture Program (Department of Agriculture)</h4>
-            <p class="date">June 2026 – July 2026</p>
-            <ul>
-                <li><strong>Data Visualization & Management:</strong> Built a comprehensive data dashboard to accurately reflect farmer organization data. Updated the internal database, processed RSBSA requirements, and encoded multi-year acknowledgment receipts.</li>
-                <li><strong>Graphic Design:</strong> Conceptualized and designed official department collateral, including training notebooks, official program bags, and uniform polo shirts featuring the theme "Kabuhayang OA, Kinabukasang OK".</li>
-                <li><strong>Event & Administrative Support:</strong> Provided on-site assistance for the "Continuous Capability Building of Accredited PGS-OCBs" three-day training program in La Trinidad. Organized and filed provincial acknowledgment receipts for Benguet, Ifugao, Kalinga, and Mt. Province.</li>
-            </ul>
+        
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+            <a href="#experience" class="btn">Professional Experience</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
         </div>
     </section>
-
 
     <section id="projects">
         <h2>Featured Projects</h2>
         <div class="project-grid">
             <!-- Project 1 -->
             <div class="project-card">
-                <h3>EcoSort</h3>
+                <h3>E-Waste Classification</h3>
                 <p>An automated waste sorting model utilizing the AlexNet architecture to support circular economy initiatives.</p>
                 <a href="#" class="btn">View Repository</a>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Waste Detection System</h3>
+                <p>A collaborative project focused on real-time environmental scanning and waste identification.</p>
+                <a href="#" class="btn">View Repository</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="experience-card">
+            
+            <div class="experience-header">
+                <h3>Data & Design Intern</h3>
+                <h4>Organic Agriculture Program (Department of Agriculture)</h4>
+                <p class="date">June 2026 – July 2026</p>
+            </div>
+
+            <div class="task-list">
+                
+                <!-- Task 1: Data -->
+                <div class="task-item">
+                    <div class="task-image">
+                        <img src="IIOFA-Dashboard.png" alt="Data Dashboard">
+                        <img src="OFHFI-Dashboard.png" alt="Data Dashboard">
+                    </div>
+                    <div class="task-text">
+                        <strong>Data Visualization & Management</strong>
+                        <p>Built a comprehensive data dashboard to accurately reflect farmer organization data. Updated the internal database, processed RSBSA requirements, and encoded multi-year acknowledgment receipts.</p>
+                    </div>
+                </div>
+
+                <!-- Task 2: Design (Gallery layout for multiple images) -->
+                <div class="task-item">
+                    <div class="task-gallery">
+                        <img src="#" alt="Khaki Shirt Design">
+                        <img src="#" alt="Green Polo Shirt Design">
+                        <img src="OAP-Tote-Bag-Design.png" alt="Official Bag Design">
+                    </div>
+                    <div class="task-text">
+                        <strong>Graphic Design</strong>
+                        <p>Conceptualized and designed official department collateral, including training notebooks, official program bags, and uniform polo shirts featuring the theme "Kabuhayang OA, Kinabukasang OK".</p>
+                    </div>
+                </div>
+
+                <!-- Task 3: Events -->
+                <div class="task-item">
+                    <div class="task-image">
+                        <img src="IMG_20260623_165234.jpg" alt="Capability Building for Accredited Participatory Guarantee System - Organic Certifying Bodies (PGS-OCBs)">
+                        <img src="IMG_20260714_145104.jpg" alt="On-site Event Training">
+                    </div>
+                    <div class="task-text">
+                        <strong>Event & Administrative Support</strong>
+                        <p>Provided on-site assistance for the "Continuous Capability Building of Accredited PGS-OCBs" three-day training program in La Trinidad. Organized and filed provincial acknowledgment receipts for Benguet, Ifugao, Kalinga, and Mt. Province.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
